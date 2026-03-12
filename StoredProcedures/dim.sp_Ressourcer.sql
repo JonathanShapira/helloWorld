@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_Ressourcer
+CREATE   PROCEDURE dim.sp_Ressourcer
     AS
     BEGIN
 

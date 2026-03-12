@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_Debitorer
+CREATE   PROCEDURE dim.sp_Debitorer
     AS
     BEGIN
 

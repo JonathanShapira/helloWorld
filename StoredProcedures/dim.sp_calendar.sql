@@ -1,4 +1,3 @@
-
 CREATE PROCEDURE [dim].[sp_calendar]
 AS
 BEGIN
@@ -139,6 +138,4 @@ BEGIN
     -- Disable IDENTITY_INSERT on the KeyVault.SurrogateKeys table
     SET IDENTITY_INSERT KeyVault.SurrogateKeys OFF;
 END;
-
-
 GO

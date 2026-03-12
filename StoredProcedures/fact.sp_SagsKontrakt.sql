@@ -47,5 +47,4 @@ SELECT * into fact.SagsKontrakt FROM switch.fact_SagsKontrakt
     ,@accepted_pct = 0        
 
 END
-
 GO

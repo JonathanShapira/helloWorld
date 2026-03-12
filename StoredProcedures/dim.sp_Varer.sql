@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_Varer
+CREATE   PROCEDURE dim.sp_Varer
     AS
     BEGIN
 

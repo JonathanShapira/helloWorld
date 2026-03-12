@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_company
+CREATE   PROCEDURE dim.sp_company
     AS
     BEGIN
 

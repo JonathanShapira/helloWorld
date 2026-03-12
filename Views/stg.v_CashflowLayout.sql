@@ -9,5 +9,4 @@ SELECT
     ,coalesce(c.Type,ds.[Type]) as [Type]
 FROM [stg].[Cashflow] c
 LEFT JOIN [stg].[DefaultSettings] ds ON 1=1
-
 GO

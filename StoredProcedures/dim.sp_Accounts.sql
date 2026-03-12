@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_Accounts
+CREATE   PROCEDURE dim.sp_Accounts
     AS
     BEGIN
 

@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_Sagsopgavelinjer
+CREATE   PROCEDURE dim.sp_Sagsopgavelinjer
     AS
     BEGIN
 

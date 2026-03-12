@@ -50,5 +50,4 @@ SELECT * into fact.SagsForbrug FROM switch.fact_SagsForbrug
 
 
 END
-
 GO

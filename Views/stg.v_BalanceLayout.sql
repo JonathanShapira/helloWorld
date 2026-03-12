@@ -9,5 +9,4 @@ SELECT
     coalesce(b.Type,ds.[Type]) as [Type]
 FROM [stg].[Balance] b
 LEFT JOIN [stg].[DefaultSettings] ds ON 1=1
-
 GO

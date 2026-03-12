@@ -1,6 +1,3 @@
-
-
-
 CREATE PROC [utility].[sp_create_keyvault] as 
 begin
 -- Drop the KeyVault.SurrogateKeys table if it already exists
@@ -36,6 +33,4 @@ CREATE TABLE KeyVault.SurrogateKeys (
     CONSTRAINT UQ_SurrogateKeys_DataHash UNIQUE (DataHash)
 );
 end
-
-
 GO

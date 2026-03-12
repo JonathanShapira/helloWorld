@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_DimensionGroupKeys
+CREATE   PROCEDURE dim.sp_DimensionGroupKeys
     AS
     BEGIN
 

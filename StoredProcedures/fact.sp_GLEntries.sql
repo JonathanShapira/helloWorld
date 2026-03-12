@@ -1,4 +1,3 @@
-
 CREATE PROCEDURE [fact].[sp_GLEntries] AS
 BEGIN
 
@@ -49,5 +48,4 @@ BEGIN
         ,@accepted_pct = 0
 
 END
-
 GO

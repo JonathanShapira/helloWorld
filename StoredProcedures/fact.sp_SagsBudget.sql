@@ -46,5 +46,4 @@ SELECT * into fact.SagsBudget FROM switch.fact_SagsBudget
     ,@accepted_pct = 0        
 
 END
-
 GO

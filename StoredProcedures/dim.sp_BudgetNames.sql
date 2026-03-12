@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_BudgetNames
+CREATE   PROCEDURE dim.sp_BudgetNames
     AS
     BEGIN
 

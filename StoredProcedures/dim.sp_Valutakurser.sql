@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_Valutakurser
+CREATE   PROCEDURE dim.sp_Valutakurser
     AS
     BEGIN
 
