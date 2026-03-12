@@ -1,0 +1,16 @@
+CREATE TABLE [KeyVault].[SurrogateKeys]
+(
+    [Surrogate_Key] BIGINT IDENTITY(1, 1) NOT NULL,
+    [DW_ValidFrom] DATETIME2 NULL,
+    [SourceSchema] NVARCHAR(255) NOT NULL,
+    [SourceTable] NVARCHAR(255) NOT NULL,
+    [BK_Col1] NVARCHAR(255) NULL,
+    [BK_Col2] NVARCHAR(255) NULL,
+    [BK_Col3] NVARCHAR(255) NULL,
+    [BK_Col4] NVARCHAR(255) NULL,
+    [BK_Col5] NVARCHAR(255) NULL,
+    [BK_Col6] NVARCHAR(255) NULL,
+    [DataHash] VARBINARY(8000) NULL,
+    CONSTRAINT [PK__Surrogat__F1D3453C490F8689] PRIMARY KEY (Surrogate_Key)
+);
+GO
