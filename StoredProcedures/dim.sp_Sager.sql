@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_Sager
+CREATE   PROCEDURE dim.sp_Sager
     AS
     BEGIN
 

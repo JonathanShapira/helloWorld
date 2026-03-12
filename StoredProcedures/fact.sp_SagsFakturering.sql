@@ -50,5 +50,4 @@ SELECT * into fact.SagsFakturering FROM switch.fact_SagsFakturering
 
 
 END
-
 GO

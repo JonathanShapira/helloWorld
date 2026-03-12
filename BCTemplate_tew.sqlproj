@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>BCTemplate_tew</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{0}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootNamespace>BCTemplate_tew</RootNamespace>
+    <AssemblyName>BCTemplate_tew</AssemblyName>
+    <ModelCollation>1033,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Build Include="Security/Bridge.sql" />
+    <Build Include="Security/KeyVault.sql" />
+    <Build Include="Security/arc.sql" />
+    <Build Include="Security/aux.sql" />
+    <Build Include="Security/dim.sql" />
+    <Build Include="Security/fact.sql" />
+    <Build Include="Security/metadata.sql" />
+    <Build Include="Security/stg.sql" />
+    <Build Include="Security/switch.sql" />
+    <Build Include="Security/temp.sql" />
+    <Build Include="Security/utility.sql" />
+    <Build Include="Tables/dim.company.sql" />
+    <Build Include="Tables/fact.Finansbudgetter.sql" />
+    <Build Include="Tables/fact.GLEntries.sql" />
+    <Build Include="Tables/fact.SagsBudget.sql" />
+    <Build Include="Tables/fact.SagsFakturering.sql" />
+    <Build Include="Tables/fact.SagsForbrug.sql" />
+    <Build Include="Tables/fact.SagsKontrakt.sql" />
+    <Build Include="Tables/fact.VaerdiPoster.sql" />
+    <Build Include="Tables/fact.salg.sql" />
+    <Build Include="Tables/stg.Balance.sql" />
+    <Build Include="Tables/stg.BogførteKreditNotaLinjer.sql" />
+    <Build Include="Tables/stg.BogførteKreditNotaer.sql" />
+    <Build Include="Tables/stg.BogførteSalgsfakturaLinjer.sql" />
+    <Build Include="Tables/stg.BogførteSalgsfakturaer.sql" />
+    <Build Include="Tables/stg.Cashflow.sql" />
+    <Build Include="Tables/stg.Companies.sql" />
+    <Build Include="Tables/stg.Debitorer.sql" />
+    <Build Include="Tables/stg.Debitorposter.sql" />
+    <Build Include="Tables/stg.DefaultSettings.sql" />
+    <Build Include="Tables/stg.DimensionGroups.sql" />
+    <Build Include="Tables/stg.Finansbudgetter.sql" />
+    <Build Include="Tables/stg.GLAccounts.sql" />
+    <Build Include="Tables/stg.GLEntries.sql" />
+    <Build Include="Tables/stg.KPIMapping.sql" />
+    <Build Include="Tables/stg.Kreditorposter.sql" />
+    <Build Include="Tables/stg.Lokationer.sql" />
+    <Build Include="Tables/stg.MomsPoster.sql" />
+    <Build Include="Tables/stg.Ressourcer.sql" />
+    <Build Include="Tables/stg.Resultat.sql" />
+    <Build Include="Tables/stg.Sager.sql" />
+    <Build Include="Tables/stg.Sagsopgavelinjer.sql" />
+    <Build Include="Tables/stg.Sagsplanlægningslinjer.sql" />
+    <Build Include="Tables/stg.Sagsposter.sql" />
+    <Build Include="Tables/stg.ValutaKurser.sql" />
+    <Build Include="Tables/stg.Varer.sql" />
+    <Build Include="Tables/stg.VærdiPoster.sql" />
+    <Build Include="Tables/stg.kreditorer.sql" />
+    <Build Include="Tables/switch.Accounts.sql" />
+    <Build Include="Tables/switch.BalanceLayout.sql" />
+    <Build Include="Tables/switch.Bridge_DimensionGroups.sql" />
+    <Build Include="Tables/switch.Bridge_KPIMapping.sql" />
+    <Build Include="Tables/switch.BudgetNames.sql" />
+    <Build Include="Tables/switch.CashflowLayout.sql" />
+    <Build Include="Tables/switch.Debitorer.sql" />
+    <Build Include="Tables/switch.DimensionGroupKeys.sql" />
+    <Build Include="Tables/switch.KPILayout.sql" />
+    <Build Include="Tables/switch.Lokationer.sql" />
+    <Build Include="Tables/switch.Ressourcer.sql" />
+    <Build Include="Tables/switch.ResultatLayout.sql" />
+    <Build Include="Tables/switch.Sager.sql" />
+    <Build Include="Tables/switch.Sagsopgavelinjer.sql" />
+    <Build Include="Tables/switch.Valutakurser.sql" />
+    <Build Include="Tables/switch.Varer.sql" />
+    <Build Include="Tables/switch.company.sql" />
+    <Build Include="Tables/switch.fact_Finansbudgetter.sql" />
+    <Build Include="Tables/switch.fact_GLEntries.sql" />
+    <Build Include="Tables/switch.fact_SagsBudget.sql" />
+    <Build Include="Tables/switch.fact_SagsFakturering.sql" />
+    <Build Include="Tables/switch.fact_SagsForbrug.sql" />
+    <Build Include="Tables/switch.fact_SagsKontrakt.sql" />
+    <Build Include="Tables/switch.fact_Sagsplanlægningslinjer.sql" />
+    <Build Include="Tables/switch.fact_Sagsposter.sql" />
+    <Build Include="Tables/switch.fact_VaerdiPoster.sql" />
+    <Build Include="Tables/switch.fact_salg.sql" />
+    <Build Include="Tables/temp.DimensionGroups.sql" />
+    <Build Include="Tables/Bridge.DimensionGroups.sql" />
+    <Build Include="Tables/Bridge.KPIMapping.sql" />
+    <Build Include="Tables/KeyVault.SurrogateKeys.sql" />
+    <Build Include="Tables/dim.Accounts.sql" />
+    <Build Include="Tables/dim.BalanceLayout.sql" />
+    <Build Include="Tables/dim.BudgetNames.sql" />
+    <Build Include="Tables/dim.CashflowLayout.sql" />
+    <Build Include="Tables/dim.Debitorer.sql" />
+    <Build Include="Tables/dim.DimensionGroupKeys.sql" />
+    <Build Include="Tables/dim.KPILayout.sql" />
+    <Build Include="Tables/dim.Lokationer.sql" />
+    <Build Include="Tables/dim.Ressourcer.sql" />
+    <Build Include="Tables/dim.ResultatLayout.sql" />
+    <Build Include="Tables/dim.Sager.sql" />
+    <Build Include="Tables/dim.Sagsopgavelinjer.sql" />
+    <Build Include="Tables/dim.Valutakurser.sql" />
+    <Build Include="Tables/dim.Varer.sql" />
+    <Build Include="Tables/dim.calendar.sql" />
+    <Build Include="Views/stg.v_BalanceLayout.sql" />
+    <Build Include="Views/stg.v_CashflowLayout.sql" />
+    <Build Include="Views/stg.v_Debitorer.sql" />
+    <Build Include="Views/stg.v_DimensionGroups.sql" />
+    <Build Include="Views/stg.v_Finansbudgetter.sql" />
+    <Build Include="Views/stg.v_GLAccounts.sql" />
+    <Build Include="Views/stg.v_KPIMapping.sql" />
+    <Build Include="Views/stg.v_Lokationer.sql" />
+    <Build Include="Views/stg.v_Ressourcer.sql" />
+    <Build Include="Views/stg.v_ResultatLayout.sql" />
+    <Build Include="Views/stg.v_Sager.sql" />
+    <Build Include="Views/stg.v_Sagsopgavelinjer.sql" />
+    <Build Include="Views/stg.v_Sagsposter.sql" />
+    <Build Include="Views/stg.v_ValutaKurser.sql" />
+    <Build Include="Views/stg.v_Varer.sql" />
+    <Build Include="Views/stg.v_companies.sql" />
+    <Build Include="StoredProcedures/Bridge.sp_KPIMapping.sql" />
+    <Build Include="StoredProcedures/dim.sp_Accounts.sql" />
+    <Build Include="StoredProcedures/dim.sp_BalanceLayout.sql" />
+    <Build Include="StoredProcedures/dim.sp_BudgetNames.sql" />
+    <Build Include="StoredProcedures/dim.sp_CashflowLayout.sql" />
+    <Build Include="StoredProcedures/dim.sp_Debitorer.sql" />
+    <Build Include="StoredProcedures/dim.sp_DimensionGroupKeys.sql" />
+    <Build Include="StoredProcedures/dim.sp_KPILayout.sql" />
+    <Build Include="StoredProcedures/dim.sp_Lokationer.sql" />
+    <Build Include="StoredProcedures/dim.sp_Ressourcer.sql" />
+    <Build Include="StoredProcedures/dim.sp_ResultatLayout.sql" />
+    <Build Include="StoredProcedures/dim.sp_Sager.sql" />
+    <Build Include="StoredProcedures/dim.sp_Sagsopgavelinjer.sql" />
+    <Build Include="StoredProcedures/dim.sp_Valutakurser.sql" />
+    <Build Include="StoredProcedures/dim.sp_Varer.sql" />
+    <Build Include="StoredProcedures/dim.sp_calendar.sql" />
+    <Build Include="StoredProcedures/dim.sp_company.sql" />
+    <Build Include="StoredProcedures/fact.sp_Finansbudgetter.sql" />
+    <Build Include="StoredProcedures/fact.sp_GLEntries.sql" />
+    <Build Include="StoredProcedures/fact.sp_SagsBudget.sql" />
+    <Build Include="StoredProcedures/fact.sp_SagsFakturering.sql" />
+    <Build Include="StoredProcedures/fact.sp_SagsForbrug.sql" />
+    <Build Include="StoredProcedures/fact.sp_SagsKontrakt.sql" />
+    <Build Include="StoredProcedures/fact.sp_VaerdiPoster.sql" />
+    <Build Include="StoredProcedures/fact.sp_salg.sql" />
+    <Build Include="StoredProcedures/utility.GenerateType2History.sql" />
+    <Build Include="StoredProcedures/utility.InitializeDWH.sql" />
+    <Build Include="StoredProcedures/utility.Print.sql" />
+    <Build Include="StoredProcedures/utility.SwitchTableProcedure.sql" />
+    <Build Include="StoredProcedures/utility.clear_stg.sql" />
+    <Build Include="StoredProcedures/utility.sp_create_keyvault.sql" />
+  </ItemGroup>
+</Project>

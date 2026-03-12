@@ -53,5 +53,4 @@ SELECT * into fact.VaerdiPoster FROM switch.fact_VaerdiPoster
 
 
 END
-
 GO

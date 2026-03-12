@@ -9,5 +9,4 @@ SELECT
     ,coalesce(r.Type,ds.[Type]) as [Type]
 FROM [stg].[Resultat] r
 LEFT JOIN [stg].[DefaultSettings] ds on 1=1
-
 GO

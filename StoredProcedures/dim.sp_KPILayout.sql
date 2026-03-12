@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_KPILayout
+CREATE   PROCEDURE dim.sp_KPILayout
     AS
     BEGIN
 

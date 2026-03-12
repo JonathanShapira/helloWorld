@@ -24,6 +24,4 @@ exec utility.SwitchTableProcedure
   @Target_Table_Name = 'Finansbudgetter',
   @force_switch = 1,
   @accepted_pct = 0
-
-
 GO

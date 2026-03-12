@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_CashflowLayout
+CREATE   PROCEDURE dim.sp_CashflowLayout
     AS
     BEGIN
 

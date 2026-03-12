@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_Lokationer
+CREATE   PROCEDURE dim.sp_Lokationer
     AS
     BEGIN
 

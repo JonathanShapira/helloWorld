@@ -1,4 +1,3 @@
-
 CREATE PROCEDURE [Utility].[SwitchTableProcedure]
     @switch_schema NVARCHAR(128),
     @switch_table_name NVARCHAR(128),

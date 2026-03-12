@@ -22,5 +22,4 @@ exec utility.SwitchTableProcedure
 ,@force_switch = 1
 ,@accepted_pct = 0
 end;
-
 GO

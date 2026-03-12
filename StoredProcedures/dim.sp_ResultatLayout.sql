@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_ResultatLayout
+CREATE   PROCEDURE dim.sp_ResultatLayout
     AS
     BEGIN
 

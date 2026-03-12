@@ -1,5 +1,4 @@
-
-    CREATE   PROCEDURE dim.sp_BalanceLayout
+CREATE   PROCEDURE dim.sp_BalanceLayout
     AS
     BEGIN
 
